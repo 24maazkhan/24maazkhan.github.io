@@ -6,6 +6,10 @@ import droneGearCAD from '@/assets/project-images/drone-gear-cad.png';
 import escCaseCAD from '@/assets/project-images/esc-case-cad.png';
 import groupPuzzleCAD from '@/assets/project-images/group-puzzle-cad.png';
 import steelJigCAD from '@/assets/project-images/steel-jig-cad.png';
+import MacroplannerSoftware from '@/assets/project-images/macroplanner-software.png';
+import EAAndroid from '@/assets/project-images/ea-android.png';
+import EAWeb from '@/assets/project-images/ea-web.png';
+import EAMetrics from '@/assets/project-images/ea-metrics.png';
 
 const Projects = () => {
   return (
@@ -17,8 +21,11 @@ const Projects = () => {
   <div className='pb-6'>
     <h2 className='text-2xl font-semibold text-left text-[#001b5e] mb-4'>Software Projects</h2>
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
-      <ProjectItem img={MaazSiteImage} title="Placeholder" description="placeholder" />
-      <ProjectItem img={MaazSiteImage} title="Placeholder" description="placeholder" />
+      <ProjectItem img={MacroplannerSoftware} title="Placeholder" description="placeholder" />
+      <ProjectItem img={EAWeb} title="Placeholder" description="placeholder" />
+      <ProjectItem img={EAMetrics} title="Placeholder" description="placeholder" />
+      <ProjectItem img={EAAndroid} title="Placeholder" description="placeholder" />
+      
     </div>
   </div>
   <div>
