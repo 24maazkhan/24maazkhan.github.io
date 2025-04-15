@@ -27,11 +27,11 @@ const Main = () => {
                 />
             </h2>
             <div className='flex justify-between pt-6 max-w-[80px] w-full'>
-                <a href='' className='cursor-pointer'>
-                    <FaLinkedinIn size={20}/>
+                <a href='https://www.linkedin.com/in/maazkhan4' className='cursor-pointer'>
+                    <FaLinkedinIn size={25}/>
                 </a>
-                <a href='' className='cursor-pointer'>
-                    <FaGithub size={20}/>
+                <a href='https://github.com/24maazkhan' className='cursor-pointer'>
+                    <FaGithub size={25}/>
                 </a>
             </div>
         </div>
