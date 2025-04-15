@@ -24,7 +24,7 @@ const Projects = () => {
       <ProjectItem img={MacroplannerSoftware} title="AI-Powered Weekly Macro Planner" description="React/NextJS, FastAPI/Python, AWS" />
       <ProjectItem img={EAWeb} title="Earning Alpha Web App" description="React/NextJS, Flask/Python, AWS, PostgreSQL" />
       <ProjectItem img={EAMetrics} title="Earning Alpha ML Data Processing" description="Python, Financial APIs" />
-      <ProjectItem img={EAAndroid} title="Earning Alpha MVP Android App" description="Android Studio, Kotlin/Java" />
+      <ProjectItem img={EAAndroid} title="Earning Alpha MVP Android App" description="Android SDK, Kotlin/Java" />
       
     </div>
   </div>
@@ -33,7 +33,7 @@ const Projects = () => {
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
       <ProjectItem img={droneGearCAD} title="UWARG Competition Drone Landing Gear" description="SolidWorks" />
       <ProjectItem img={escCaseCAD} title="UWARG ESC Case" description="SolidWorks" />
-      <ProjectItem img={airplaneCAD} title="SR-71 Blackbird Airplane" description="SolidWorks (Drafting)" />
+      <ProjectItem img={airplaneCAD} title="SR-71 Blackbird Airplane" description="SolidWorks (Drafting + Assembly)" />
       <ProjectItem img={steelJigCAD} title="Steel Jig Machining Guide" description="SolidWorks (Drafting)" />
       <ProjectItem img={groupPuzzleCAD} title="Collaborative 3D Design and Manufacturing Project" description="SolidWorks, 3D Printing" />
 
