@@ -5,16 +5,21 @@ const ProjectItem = ({ img, title, description }) => {
 
   return (
     <div>
-      <div className="relative flex items-center justify-center h-auto w-full rounded-xl shadow-xl shadow-gray-400 group hover:bg-[#001b5e] hover:opacity-60">
-        <img src={img} alt={title} className="rounded-xl group-hover:opacity-10" />
-        <div className="hidden group-hover:flex flex-col items-center absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-center">
-          <h3 className="text-2xl font-bold text-white tracking-wider">{title}</h3>
-          <p className="pb-4 pt-2 text-white">{description}</p>
-          <button onClick={() => setIsModalOpen(true)} className="mt-2 px-4 py-2 bg-white text-[#001b5e] rounded hover:bg-gray-200 text-sm font-semibold">
+      <div className="relative w-full rounded-xl shadow-xl shadow-gray-400 overflow-hidden group">
+        <img src={img} alt={title} className="rounded-xl w-full h-auto group-hover:opacity-10 transition-opacity duration-300" />
+        
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 group-hover:opacity-100 bg-[#001b5e]/90 px-4 transition-opacity duration-300">
+          <h3 className="text-2xl font-bold text-white tracking-wider break-words">{title}</h3>
+          <p className="pb-4 pt-2 text-white break-words">{description}</p>
+          <button
+            onClick={() => setIsModalOpen(true)}
+            className="mt-2 px-4 py-2 bg-white text-[#001b5e] rounded hover:bg-gray-200 text-sm font-semibold"
+          >
             Enlarge Image
           </button>
         </div>
       </div>
+
 
       {isModalOpen && (
         <div className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center">

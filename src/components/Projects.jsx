@@ -21,21 +21,21 @@ const Projects = () => {
   <div className='pb-6'>
     <h2 className='text-2xl font-semibold text-left text-[#001b5e] mb-4'>Software Projects</h2>
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
-      <ProjectItem img={MacroplannerSoftware} title="Placeholder" description="placeholder" />
-      <ProjectItem img={EAWeb} title="Placeholder" description="placeholder" />
-      <ProjectItem img={EAMetrics} title="Placeholder" description="placeholder" />
-      <ProjectItem img={EAAndroid} title="Placeholder" description="placeholder" />
+      <ProjectItem img={MacroplannerSoftware} title="AI-Powered Weekly Macro Planner" description="React/NextJS, FastAPI/Python, AWS" />
+      <ProjectItem img={EAWeb} title="Earning Alpha Web App" description="React/NextJS, Flask/Python, AWS, PostgreSQL" />
+      <ProjectItem img={EAMetrics} title="Earning Alpha ML Data Processing" description="Python, Financial APIs" />
+      <ProjectItem img={EAAndroid} title="Earning Alpha MVP Android App" description="Android Studio, Kotlin/Java" />
       
     </div>
   </div>
   <div>
     <h2 className='text-2xl font-semibold text-left text-[#001b5e] mb-4'>Mechanical Projects</h2>
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
-      <ProjectItem img={droneGearCAD} title="Placeholder" description="placeholder" />
-      <ProjectItem img={escCaseCAD} title="Placeholder" description="placeholder" />
-      <ProjectItem img={airplaneCAD} title="Placeholder" description="placeholder" />
-      <ProjectItem img={steelJigCAD} title="Placeholder" description="placeholder" />
-      <ProjectItem img={groupPuzzleCAD} title="Placeholder" description="placeholder" />
+      <ProjectItem img={droneGearCAD} title="UWARG Competition Drone Landing Gear" description="SolidWorks" />
+      <ProjectItem img={escCaseCAD} title="UWARG ESC Case" description="SolidWorks" />
+      <ProjectItem img={airplaneCAD} title="SR-71 Blackbird Airplane" description="SolidWorks (Drafting)" />
+      <ProjectItem img={steelJigCAD} title="Steel Jig Machining Guide" description="SolidWorks (Drafting)" />
+      <ProjectItem img={groupPuzzleCAD} title="Collaborative 3D Design and Manufacturing Project" description="SolidWorks, 3D Printing" />
 
     </div>
   </div>

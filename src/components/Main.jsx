@@ -22,7 +22,7 @@ const Main = () => {
                 ]}
                 wrapper="div"
                 speed={25}
-                style={{ fontSize: '1em', paddingLeft: "6px" }}
+                style={{ fontSize: '1em', paddingLeft: "8px" }}
                 repeat={Infinity}
                 />
             </h2>
