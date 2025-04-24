@@ -9,7 +9,6 @@ import steelJigCAD from '@/assets/project-images/steel-jig-cad.png';
 import MacroplannerSoftware from '@/assets/project-images/macroplanner-software.png';
 import EAAndroid from '@/assets/project-images/ea-android.png';
 import EAWeb from '@/assets/project-images/ea-web.png';
-import EAMetrics from '@/assets/project-images/ea-metrics.png';
 
 const Projects = () => {
   return (
@@ -19,11 +18,10 @@ const Projects = () => {
     A collection of my personal and professional projects, ranging from web development to mechanical modeling, utilizing a variety of tools.
   </p>
   <div className='pb-6'>
-    <h2 className='text-2xl font-semibold text-left text-[#001b5e] mb-4'>Software Projects</h2>
+    <h2 className='text-2xl font-semibold text-left text-[rgb(0,27,94)] mb-4'>Software Projects</h2>
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
       <ProjectItem img={MacroplannerSoftware} title="AI-Powered Weekly Macro Planner" description="React/NextJS, FastAPI/Python, AWS" />
       <ProjectItem img={EAWeb} title="Earning Alpha Web App" description="React/NextJS, Flask/Python, AWS, PostgreSQL" />
-      <ProjectItem img={EAMetrics} title="Earning Alpha ML Data Processing" description="Python, Financial APIs" />
       <ProjectItem img={EAAndroid} title="Earning Alpha MVP Android App" description="Android SDK, Kotlin/Java" />
       
     </div>
