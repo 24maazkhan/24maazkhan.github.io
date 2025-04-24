@@ -7,7 +7,7 @@ import escCaseCAD from '@/assets/project-images/esc-case-cad.png';
 import groupPuzzleCAD from '@/assets/project-images/group-puzzle-cad.png';
 import steelJigCAD from '@/assets/project-images/steel-jig-cad.png';
 import MacroplannerSoftware from '@/assets/project-images/macroplanner-software.png';
-import EAAndroid from '@/assets/project-images/ea-android.png';
+import EAMobile from '@/assets/project-images/ea-mobile.png';
 import EAWeb from '@/assets/project-images/ea-web.png';
 
 const Projects = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
       <ProjectItem img={MacroplannerSoftware} title="AI-Powered Weekly Macro Planner" description="React/NextJS, FastAPI/Python, AWS" />
       <ProjectItem img={EAWeb} title="Earning Alpha Web App" description="React/NextJS, Flask/Python, AWS, PostgreSQL" />
-      <ProjectItem img={EAAndroid} title="Earning Alpha MVP Android App" description="Android SDK, Kotlin/Java" />
+      <ProjectItem img={EAMobile} title="Earning Alpha Mobile Web App" description="React/NextJS, Flask/Python, AWS, TailwindCSS" />
       
     </div>
   </div>
