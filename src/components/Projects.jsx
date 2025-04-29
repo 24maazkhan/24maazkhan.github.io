@@ -9,6 +9,7 @@ import steelJigCAD from '@/assets/project-images/steel-jig-cad.png';
 import MacroplannerSoftware from '@/assets/project-images/macroplanner-software.png';
 import EAMobile from '@/assets/project-images/ea-mobile.png';
 import EAWeb from '@/assets/project-images/ea-web.png';
+import DocumentScanner from '@/assets/project-images/document-scanner.png';
 
 const Projects = () => {
   return (
@@ -21,6 +22,7 @@ const Projects = () => {
     <h2 className='text-2xl font-semibold text-left text-[rgb(0,27,94)] mb-4'>Software Projects</h2>
     <div className='grid sm:grid-cols-2 gap-12 p-4'>
       <ProjectItem img={MacroplannerSoftware} title="AI-Powered Weekly Macro Planner" description="React/NextJS, FastAPI/Python, AWS" />
+      <ProjectItem img={DocumentScanner} title="Computer Vision Document Scanner" description="OpenCV, PyTesseract, React/NextJS, Flask" />
       <ProjectItem img={EAWeb} title="Earning Alpha Web App" description="React/NextJS, Flask/Python, AWS, PostgreSQL" />
       <ProjectItem img={EAMobile} title="Earning Alpha Mobile Web App" description="React/NextJS, Flask/Python, AWS, TailwindCSS" />
       
